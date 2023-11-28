@@ -1,0 +1,74 @@
+.card_wrapper {
+    width: 250px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 5px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #f1f2f3;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.infos {
+    margin-left: .3rem;
+    width: 100%;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: .5rem 0rem;
+}
+
+.description {
+    font-size: 1rem;
+    opacity: .5;
+    font-style: italic;
+}
+
+.price {
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    color: #cf2121;
+}
+
+.counter {
+    background-color: #50a2f4;
+    padding: .5rem 0rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #f1f2f3;
+    /* border-radius: 0px 0px 10px 10px; */
+}
+
+.count {
+    font-size: 1.4rem;
+}
+
+.total {
+    width: 100%;
+    background-color: #50f489;
+    color: #f1f2f1;
+    text-align: center;
+    padding: .5rem 0rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.total_txt {
+    font-size: 1rem;
+    margin: 0rem .2rem;
+    font-weight: bold;
+    transition: all 1.3s ease-in;
+}
